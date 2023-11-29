@@ -17,4 +17,8 @@ Demostraci�n de funciones y aplicaciones
 Accesso al proycto 
 Tecnolog�as utilizadas
 Personas desarrolladoreas del proyecto 
-Licencia
+
+
+## License
+
+This project is [MIT licensed](./LICENSE).
