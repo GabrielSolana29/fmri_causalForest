@@ -1,17 +1,15 @@
-<em> # Readme </em>
-
-Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging
+<em> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging </em>
 
 Que hace el proyecto 
-Por qué es util el proyecto 
+Por quï¿½ es util el proyecto 
 Como pueden comenzar los usuarios con el proyecto 
 Donde pueden recibir ayuda los usuarios con tu proyecto 
-quién mantiene y contributye con el proyecto 
+quiï¿½n mantiene y contributye con el proyecto 
 
-Descripción del proeycto 
+Descripciï¿½n del proeycto 
 Estado del proyecto 
-Demostración de funciones y aplicaciones
+Demostraciï¿½n de funciones y aplicaciones
 Accesso al proycto 
-Tecnologías utilizadas
+Tecnologï¿½as utilizadas
 Personas desarrolladoreas del proyecto 
 Licencia
