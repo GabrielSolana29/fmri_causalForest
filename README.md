@@ -1,4 +1,4 @@
-<em> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging </em>
+<h1 align="center"> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging </h1>
 
 Que hace el proyecto 
 Por qu� es util el proyecto 
