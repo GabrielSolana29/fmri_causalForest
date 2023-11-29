@@ -21,4 +21,4 @@ Personas desarrolladoreas del proyecto
 
 ## License
 
-This project is [MIT licensed](./LICENSE).
+This project is [GNU licensed](./LICENSE).
