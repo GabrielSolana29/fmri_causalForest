@@ -6,6 +6,7 @@
 
 <h2 align="left"> About the project </h2>
 
+This work presents a methodology to analyze functional Magnetic Resonance Imaging (fMRI) from Parkinson's disease (PD) patients by pre-processing the images and extracting features from the time series generated from the activations in the Regions of Interest (ROI) in the brain. Then, a proposed pipeline to perform dimensionality reduction and subset selection is used by leveraging techniques like Causal Forest and Wrapper Feature Subset Selection (WFSS). Finally, we present the relations between the ROIs and the classes with bubble plots and with Multiple Correspondence Analysis to facilitate the visualization of the relationships.
 
 <h2 align="left"> Requirements </h2>
 
@@ -43,11 +44,11 @@ For more information on the datasets please refer to the article.
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
 
 - <b>feature_extraction.py:</b> Loads the file "activations.csv" and extracts 11600 features per patient, including statistical, frequency-based and connectivity-based features. It generates the file "features.csv".
-- <b>causal_feature_selection.py:</b> Loads the file "features.csv" and performs feature selection using Causal Forest and a custom function which combines Causal Forest and Wrappers Feature Subset Selection (WFSS), providing both the rankings of the features, and the best subset obtained by the WFSS algorithm.
+- <b>causal_feature_selection.py:</b> Loads the file "features.csv" and performs feature selection using Causal Forest and a custom function which combines Causal Forest and WFSS, providing both the rankings of the features, and the best subset obtained by the WFSS algorithm.
 - <b>bubble_plots.py:</b> It loads the files containing the best ranking features provided by multiple iterations of the Causal Forest algorithm by creating 2 classes: (1) female PD patients and the rest of the observations (2) female controls and the rest of the observations (3) male PD patients and the rest of the observations (4) male controls and the rest of the observations. To visualize the importance and frequency of appearance of the features being selected, bubble plots are generated.
 
 <h2 align="left"> Multiple Correspondence Analisis </h2> 
-- <b>multiple_correspondence_analysis.py:</b> Performs Multiple Correspondence Analysis to better visualize the relation between the Regions of Interest and the classes. Loads a continency table from one of the two provided files ("mca_pd_control_female_male.csv" or "mca_updrs_pd_female_male.csv").
+- <b>multiple_correspondence_analysis.py:</b> Performs Multiple Correspondence Analysis to better visualize the relation between the ROI and the classes. Loads a continency table from one of the two provided files ("mca_pd_control_female_male.csv" or "mca_updrs_pd_female_male.csv").
 
 
 ## License
