@@ -1,5 +1,5 @@
 <h1 align="left"> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging </h1>
-
+<!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/#/generic -->
 <a href="https://www.linux.org/" title="Go to Linux homepage"><img src="https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white" alt="OS - Linux"></a>
 <a href="https://www.microsoft.com/" title="Go to Microsoft homepage"><img src="https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white" alt="OS - Windows"></a>
 <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/static/v1?label=Python&message=3.10.9&color=2ea44f" alt="Python - 3.10.9"></a>
