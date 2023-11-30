@@ -29,13 +29,13 @@ The data used in this project comes from fMRI obtained in the PPMI and 1000 func
 In the CSV folder, the following files are available:
 
 
-- <b><i>activations.csv:</i></b>: contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0)
-- <b><i>features.csv:</i></b>
-- <b><i>features_female_control_vs_allcausal_features.csv:</i></b>
-- <b><i>features_female_PD_vs_allcausal_features.csv:</i></b>
-- <b><i>features_male_control_vs_allcausal_features.csv:</i></b>
-- <b><i>features_male_PD_vs_allcausal_features.csv:</i></b>
-- <b><i>mca_pd_control_female_male:</i></b>
+- <b><i>activations.csv:</i></b> Contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0).
+- <b><i>features.csv:</i></b> Contains the features extracted from the time series for each patient and control. In total there are 11600 features per patient.
+- <b><i>features_female_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
+- <b><i>features_female_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
+- <b><i>features_male_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
+- <b><i>features_male_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
+- <b><i>mca_pd_control_female_male:</i></b> Features 
 - <b><i>mca_updrs_pd_female_male:</i></b>
 
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
