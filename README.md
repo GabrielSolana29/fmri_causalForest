@@ -28,8 +28,15 @@
 The data used in this project comes from fMRI obtained in the PPMI and 1000 functional Connectomes Project. Even though both datasets are publicly available, the data included here does not contain any information to identify the patients, and has already gone through a pre-processing stage explained in the paper.
 In the CSV folder, the following files are available:
 
+
 - activations.csv: contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0)
-- 
+- features.csv
+- features_female_control_vs_allcausal_features.csv
+- features_female_PD_vs_allcausal_features.csv
+- features_male_control_vs_allcausal_features.csv
+- features_male_PD_vs_allcausal_features.csv
+- mca_pd_control_female_male
+- mca_updrs_pd_female_male
 
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
 
