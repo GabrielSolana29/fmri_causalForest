@@ -1,4 +1,4 @@
-<h1 align="left"> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging" </h1>
+<h1 align="left"> Causal Forest Machine Learning Analysis of Parkinson's Disease in Resting-state Functional Magnetic Resonance Imaging </h1>
 
 <a href="https://www.linux.org/" title="Go to Linux homepage"><img src="https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white" alt="OS - Linux"></a>
 <a href="https://www.microsoft.com/" title="Go to Microsoft homepage"><img src="https://img.shields.io/badge/OS-Windows-blue?logo=windows&logoColor=white" alt="OS - Windows"></a>
@@ -10,8 +10,17 @@
 <h2 align="left"> Requirements </h2>
 
 - Python 3.9
-
-
+- pandas 2.0.2
+- numpy 1.24.4
+- scikit-learn 1.2.2
+- scipy 1.11.0
+- econml 0.14.1
+- statsmodels 0.14.0
+- xgboost 1.7.6
+- prince 0.7.1
+- matplotlib 3.7.1
+- shap 0.41.0
+- mlxtend 0.22.0
 
 These are the scripts used for the paper 
 Que hace el proyecto 
