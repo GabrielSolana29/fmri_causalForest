@@ -158,23 +158,12 @@ def load_dataset_rois(dataset_name):
         na_values=['NA', '?'])
     return df
 
-def find_used_rois(df,no_iterations):
-   #numeros = np.zeros(np.shape(df)[1])
+def find_used_rois(df,no_iterations):   
     final_count = []
     for z in range(np.shape(df)[0]):
         rois = []
-        for i in range(np.shape(df)[1]):
-            #numeros[i] = df.iat[1,i]
-            rois.append(df.iat[z,i])
-            
-        #sor = np.sort(numeros)
-        #lista_excluidos = []
-        
-    #    for i in range(np.shape(df)[1]):
-    #        if i in numeros:
-    #            t = 0
-    #        else:
-    #            lista_excluidos.append(i)
+        for i in range(np.shape(df)[1]):            
+            rois.append(df.iat[z,i])                    
         
         # Get the most used rois
         lista_numeros = []
@@ -244,9 +233,7 @@ def get_roi_features_rank(mat,no_iterations,no_rois,names_feature_rank,avg_freq_
                     
                 ## See if the roi is the one we want
                 if int(nu) ==  (i+1):
-                    #if features_iter[z] in features_roi_freq:
-                    #    nada = 1
-                    #else:
+
                         for y in range(len(names_rank)):
                             if names_rank[y] == features_iter[z]:
                                 features_roi_rank.append(y+1)
@@ -287,7 +274,7 @@ def plot_bubbles(rois_info,thresold,color:str="Blues",name_plot:str=""):
         y = y,
         s = size*200,
         c = size,
-        cmap= color, ## Oranges,Blues,Greens,Purples,Reds
+        cmap= color, 
         alpha = 0.6,
         edgecolors = "white", 
         linewidth = 2
