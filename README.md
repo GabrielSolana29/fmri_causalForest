@@ -27,7 +27,7 @@ This work presents a methodology to analyze functional Magnetic Resonance Imagin
 
 <h3 align="left"> Dataset </h3>
 
-The data used in this project comes from fMRI obtained from the Parkinson's Progression Marker Initiative (PPMI) <a href="url">https://www.ppmi-info.org/</a> and 1000 functional Connectomes Project <a href="url">https://www.nitrc.org/projects/fcon_1000/</a>. Even though both datasets are publicly available, the data included here does not contain any information to identify the patients, and has already gone through a pre-processing stage explained in the paper.
+The data used in this project comes from fMRI obtained from the Parkinson's Progression Marker Initiative (PPMI) <a href="url">https://www.ppmi-info.org/</a>, and 1000 functional Connectomes Project <a href="url">https://www.nitrc.org/projects/fcon_1000/</a>. Even though both datasets are publicly available, the data included here does not contain any information to identify the patients, and has already gone through a pre-processing stage explained in the paper.
 In the CSV folder, the following files are available:
 
 - <b>activations.csv:</b> Contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0).
