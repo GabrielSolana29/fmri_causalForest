@@ -29,7 +29,7 @@ The data used in this project comes from fMRI obtained in the PPMI and 1000 func
 In the CSV folder, the following files are available:
 
 
-- <b><i>activations.csv:</b>: contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0)
+- <b><i>activations.csv:</i></b>: contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0)
 - <b><i>features.csv:</i></b>
 - <b><i>features_female_control_vs_allcausal_features.csv:</i></b>
 - <b><i>features_female_PD_vs_allcausal_features.csv:</i></b>
