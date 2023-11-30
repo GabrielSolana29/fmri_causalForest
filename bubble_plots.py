@@ -1,11 +1,4 @@
 # Cross-correlate the average of the feature relevance with the ROI relevance
-
-#### Analysis of the data that we got from the computers 
-## For the wrapper results
-### id + number_ + features
-## For the causal forest results
-### id_c + number_ + causal_features  
-## Numbers go from 1 to 4 
 import pandas as pd
 import numpy as np 
 import copy
