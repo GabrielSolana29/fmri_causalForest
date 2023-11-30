@@ -52,6 +52,6 @@ For more information on the datasets please refer to the article.
 - <b>multiple_correspondence_analysis.py:</b> Performs Multiple Correspondence Analysis to better visualize the relation between the ROI and the classes. Loads a continency table from one of the two provided files ("mca_pd_control_female_male.csv" or "mca_updrs_pd_female_male.csv").
 
 
-## License
+<!-- ## License 
 
-This project is [GNU licensed](./LICENSE).
+This project is [GNU licensed](./LICENSE). -->
