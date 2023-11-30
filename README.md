@@ -42,8 +42,8 @@ For more information on the datasets please refer to the article.
 
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
 
-- <b>feature_extraction.py:</b>
-- <b>causal_feature_selection.py:</b>
+- <b>feature_extraction.py:</b> Loads the file "activations.csv" and extracts 11600 features per patient, including statistical, frequency-based and connectivity-based features. It generates the file "features.csv".
+- <b>causal_feature_selection.py:</b> Loads the file "features.csv" and performs feature selection using Causal Forest and a custom function which combines Causal Forest and Wrappers Feature Subset Selection (WFSS), providing both the rankings of the features, and the best subset obtained by the WFSS algorithm.
 - <b>bubble_plots.py:</b>
 
 <h2 align="left"> Multiple Correspondence Analisis </h2>
