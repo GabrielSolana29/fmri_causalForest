@@ -31,31 +31,21 @@ In the CSV folder, the following files are available:
 
 - <b><i>activations.csv:</i></b> Contains the time series from each Region of Interest obtained with the changes in the the gray level of the fMRI from the brain of patients (class 1) and controls (class 0).
 - <b><i>features.csv:</i></b> Contains the features extracted from the time series for each patient and control. In total there are 11600 features per patient.
-- <b><i>features_female_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
-- <b><i>features_female_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
-- <b><i>features_male_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
-- <b><i>features_male_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations.
+- <b><i>features_female_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations for healthy female patients.
+- <b><i>features_female_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations for PD female patients.
+- <b><i>features_male_control_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations for healthy male patients.
+- <b><i>features_male_PD_vs_allcausal_features.csv:</i></b> Best ranked features from Causal Forest in multiple iterations for PD male patients..
 - <b><i>mca_pd_control_female_male:</i></b> Features 
 - <b><i>mca_updrs_pd_female_male:</i></b>
 
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
-
+- <b>feature_extraction.py</b>
+- <b>causal_feature_selection.py</b>
+- <b>
 
 <h2 align="left"> Multiple Correspondence Analisis </h2>
+- <b>multiple_correspondence_analysis</b>
 
-These are the scripts used for the paper 
-Que hace el proyecto 
-Por que es util el proyecto 
-Como pueden comenzar los usuarios con el proyecto 
-Donde pueden recibir ayuda los usuarios con tu proyecto 
-quien mantiene y contributye con el proyecto 
-
-Descripcion del proeycto 
-Estado del proyecto 
-Demostracion de funciones y aplicaciones
-Accesso al proyecto 
-Tecnologias utilizadas
-Personas desarrolladoreas del proyecto 
 
 
 ## License
