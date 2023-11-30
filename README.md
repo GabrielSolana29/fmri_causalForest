@@ -25,6 +25,7 @@
 - mlxtend 0.22.0
 
 <h3 align="left"> Dataset </h3>
+
 The data used in this project comes from fMRI obtained in the PPMI and 1000 functional Connectomes Project. Even though both datasets are publicly available, the data included here does not contain any information to identify the patients, and has already gone through a pre-processing stage explained in the paper.
 In the CSV folder, the following files are available:
 
@@ -37,13 +38,16 @@ In the CSV folder, the following files are available:
 - <b><i>mca_pd_control_female_male:</i></b> Contingency table where each row and column corresponds to a group and a brain region, respectively. 1 signals a causal effect, 0 indicates the contrary.
 - <b><i>mca_updrs_pd_female_male:</i></b> Contingency table where each row and column corresponds to a group and a brain region, respectively. 1 signals a causal effect, 0 indicates the contrary.
 
+For more information on the datasets please refer to the article.
+
 <h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
-- <b>feature_extraction.py</b>
-- <b>causal_feature_selection.py</b>
-- <b>
+
+- <b>feature_extraction.py:</b>
+- <b>causal_feature_selection.py:</b>
+- <b>bubble_plots.py:</b>
 
 <h2 align="left"> Multiple Correspondence Analisis </h2>
-- <b>multiple_correspondence_analysis</b>
+- <b>multiple_correspondence_analysis.py:</b>
 
 
 
