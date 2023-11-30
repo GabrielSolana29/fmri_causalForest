@@ -9,6 +9,8 @@
 
 <h2 align="left"> Requirements </h2>
 
+<h3 align="left"> Libraries </h3>
+
 - Python 3.9
 - pandas 2.0.2
 - numpy 1.24.4
@@ -21,6 +23,14 @@
 - matplotlib 3.7.1
 - shap 0.41.0
 - mlxtend 0.22.0
+
+<h3 align="left"> Dataset </h3>
+
+
+<h2 align="left"> Feature selection with Causal Forest and Wrapper Features Subset Selection </h2>
+
+
+<h2 align="left"> Multiple Correspondence Analisis </h2>
 
 These are the scripts used for the paper 
 Que hace el proyecto 
