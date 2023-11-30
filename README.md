@@ -46,10 +46,8 @@ For more information on the datasets please refer to the article.
 - <b>causal_feature_selection.py:</b> Loads the file "features.csv" and performs feature selection using Causal Forest and a custom function which combines Causal Forest and Wrappers Feature Subset Selection (WFSS), providing both the rankings of the features, and the best subset obtained by the WFSS algorithm.
 - <b>bubble_plots.py:</b> It loads the files containing the best ranking features provided by multiple iterations of the Causal Forest algorithm by creating 2 classes: (1) female PD patients and the rest of the observations (2) female controls and the rest of the observations (3) male PD patients and the rest of the observations (4) male controls and the rest of the observations. To visualize the importance and frequency of appearance of the features being selected, bubble plots are generated.
 
-<h2 align="left"> Multiple Correspondence Analisis </h2>
-
-- <b>multiple_correspondence_analysis.py:</b>
-
+<h2 align="left"> Multiple Correspondence Analisis </h2> 
+- <b>multiple_correspondence_analysis.py:</b> Performs Multiple Correspondence Analysis to better visualize the relation between the Regions of Interest and the classes. Loads a continency table from one of the two provided files ("mca_pd_control_female_male.csv" or "mca_updrs_pd_female_male.csv").
 
 
 ## License
